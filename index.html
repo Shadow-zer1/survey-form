@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Your Future in Tech</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1 id="title">Your Future in Tech — Help Us Understand What's Next</h1>
+
+    <p id="description">
+      This short survey helps us understand which technologies you're most excited to learn and explore.
+    </p>
+
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Full Name:
+          <input required name="full-name" id="name" type="text" placeholder="Enter your Full Name">
+        </label>
+
+        <label for="email" id="email-label">Email Address:
+          <input required name="email" id="email" type="email" placeholder="Enter your email address">
+        </label>
+
+        <label for="number" id="number-label">Age (Optional):
+          <input name="age" id="number" placeholder="Enter your age" min="14" max="125" type="number">
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label for="dropdown">What is your current profession?
+          <select name="profession" id="dropdown">
+            <option value="">(select one)</option>
+            <option value="student">Student</option>
+            <option value="freelancer">Freelancer</option>
+            <option value="employed">Employed</option>
+            <option value="unemployed">Unemployed</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+
+        <label for="referrer">Where did you hear about this survey?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="social-media">Social Media</option>
+            <option value="word-of-mouth">Word of Mouth</option>
+            <option value="newsletter">Newsletter</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>How would you rate your current tech experience?</legend>
+        <label><input value="beginner" name="lvl" type="radio" checked> Beginner</label>
+        <label><input value="intermediate" name="lvl" type="radio"> Intermediate</label>
+        <label><input value="advanced" name="lvl" type="radio"> Advanced</label>
+      </fieldset>
+
+<fieldset>
+  <legend>Which of the following tech skills are you interested in learning? (Select all that apply)</legend>
+
+  <label><input name="skills" value="html-css" type="checkbox"> HTML & CSS</label>
+  <label><input name="skills" value="javascript" type="checkbox"> JavaScript</label>
+  <label><input name="skills" value="python" type="checkbox"> Python</label>
+  <label><input name="skills" value="ai" type="checkbox"> Artificial Intelligence</label>
+  <label><input name="skills" value="cybersecurity" type="checkbox"> Cybersecurity</label>
+  <label><input name="skills" value="mobile-app-development" type="checkbox"> Mobile App Development</label>
+  <label><input name="skills" value="none" type="checkbox"> None</label>
+</fieldset>
+
+
+      <fieldset>
+        <label for="comment-suggestion">Give comments or suggestions:</label>
+        <textarea id="comment-suggestion" name="comment-suggestion" rows="3" cols="30" placeholder="I think you could improve..."></textarea>
+
+        <label for="terms-and-conditions">
+          I accept the <a href="#">Terms & Conditions<input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" value="accepted"></a>
+        </label>
+
+        <input type="submit" id="submit" value="Submit">
+      </fieldset>
+    </form>
+
+<footer>
+  <p>© 2025 <a href="https://www.freecodecamp.org/Shadow-zer1" target="_blank">@Shadow-zer1</a> — Built as part of FreeCodeCamp</p>
+</footer>
+
+  </body>
+</html>
