@@ -12,4 +12,4 @@ This is a responsive tech-themed survey form built as part of the **Responsive W
 👉 [Click here to view it live](https://shadow-zer1.github.io/survey-form/)
 
 ## 👨‍💻 Built by
-[@Shadow_1](https://www.freecodecamp.org/Shadow_1)
+[@Shadow-zer1](https://www.freecodecamp.org/Shadow-zer1)
