@@ -121,7 +121,7 @@ input[type="checkbox"] {
 }
 
 footer {
-  background-color: rgba(10, 25, 47, 0.85); /* subtle dark blue overlay */
+  background-color: rgba(10, 25, 47, 0.85);
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
