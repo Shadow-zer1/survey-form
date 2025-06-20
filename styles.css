@@ -121,15 +121,16 @@ input[type="checkbox"] {
 }
 
 footer {
+  background-color: rgba(10, 25, 47, 0.85); /* subtle dark blue overlay */
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
-  color: #034d92;
+  color: #a0b3c5;
   margin-top: 2rem;
 }
 
 footer a {
-  color: #083258;
+  color: #3ea6ff;
   text-decoration: none;
 }
 
